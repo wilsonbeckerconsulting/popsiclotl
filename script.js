@@ -148,6 +148,146 @@ const fantasyQuestions = [
         correct: 3,
         hint: "There are many cute names for baby dragons!",
         coins: 25
+    },
+    {
+        question: "What magical bird can rise from its own ashes?",
+        options: ["Eagle", "Phoenix", "Owl", "Peacock"],
+        correct: 1,
+        hint: "It's a legendary bird of fire!",
+        coins: 20
+    },
+    {
+        question: "What do you call a person who practices magic?",
+        options: ["Doctor", "Wizard", "Teacher", "Chef"],
+        correct: 1,
+        hint: "They wear pointy hats and cast spells!",
+        coins: 10
+    },
+    {
+        question: "What do mermaids have instead of legs?",
+        options: ["Wings", "A fish tail", "Wheels", "Hooves"],
+        correct: 1,
+        hint: "They live in the ocean!",
+        coins: 10
+    },
+    {
+        question: "What magical object shows the fairest of them all?",
+        options: ["Magic mirror", "Crystal ball", "Magic lamp", "Wand"],
+        correct: 0,
+        hint: "Snow White's stepmother used this!",
+        coins: 15
+    },
+    {
+        question: "What do you rub to make a genie appear?",
+        options: ["A ring", "A lamp", "A bottle", "A coin"],
+        correct: 1,
+        hint: "Aladdin found one of these!",
+        coins: 15
+    },
+    {
+        question: "What creature has the body of a lion and head of an eagle?",
+        options: ["Dragon", "Unicorn", "Griffin", "Pegasus"],
+        correct: 2,
+        hint: "It's part big cat, part bird!",
+        coins: 25
+    },
+    {
+        question: "What do witches traditionally ride?",
+        options: ["Bicycles", "Broomsticks", "Horses", "Cars"],
+        correct: 1,
+        hint: "It's something you clean with!",
+        coins: 10
+    },
+    {
+        question: "What magical creature looks like a horse with wings?",
+        options: ["Unicorn", "Pegasus", "Centaur", "Dragon"],
+        correct: 1,
+        hint: "It can fly through the sky!",
+        coins: 15
+    },
+    {
+        question: "What do trolls usually live under?",
+        options: ["Trees", "Bridges", "Rocks", "Houses"],
+        correct: 1,
+        hint: "Three billy goats crossed over one!",
+        coins: 15
+    },
+    {
+        question: "What magical food makes you grow bigger in Alice in Wonderland?",
+        options: ["Cake", "Bread", "Cookies", "Candy"],
+        correct: 0,
+        hint: "It says 'Eat Me' on it!",
+        coins: 20
+    },
+    {
+        question: "What do elves traditionally make in Santa's workshop?",
+        options: ["Food", "Toys", "Clothes", "Books"],
+        correct: 1,
+        hint: "Children love to play with these!",
+        coins: 10
+    },
+    {
+        question: "What magical creature is known for being very small and mischievous?",
+        options: ["Giant", "Pixie", "Troll", "Ogre"],
+        correct: 1,
+        hint: "They're tiny and love to play tricks!",
+        coins: 15
+    },
+    {
+        question: "What do you call a magical horse with a single horn?",
+        options: ["Pegasus", "Unicorn", "Centaur", "Mustang"],
+        correct: 1,
+        hint: "It's pure and magical with one spiral horn!",
+        coins: 10
+    },
+    {
+        question: "What magical creature turns to stone in sunlight?",
+        options: ["Vampire", "Troll", "Fairy", "Elf"],
+        correct: 1,
+        hint: "They hide under bridges during the day!",
+        coins: 20
+    },
+    {
+        question: "What do you call a magical spell book?",
+        options: ["Dictionary", "Grimoire", "Novel", "Magazine"],
+        correct: 1,
+        hint: "Wizards keep their spells in this special book!",
+        coins: 25
+    },
+    {
+        question: "What magical creature grants three wishes?",
+        options: ["Fairy", "Genie", "Wizard", "Witch"],
+        correct: 1,
+        hint: "They live in lamps and bottles!",
+        coins: 15
+    },
+    {
+        question: "What do dwarfs traditionally work with?",
+        options: ["Magic", "Gems and metals", "Animals", "Plants"],
+        correct: 1,
+        hint: "They're excellent miners and craftsmen!",
+        coins: 20
+    },
+    {
+        question: "What magical creature is half fish, half human?",
+        options: ["Siren", "Mermaid", "Both A and B", "Centaur"],
+        correct: 2,
+        hint: "They both live in the sea!",
+        coins: 20
+    },
+    {
+        question: "What do you call a baby unicorn?",
+        options: ["Colt", "Foal", "Both A and B", "Sparkle"],
+        correct: 2,
+        hint: "Same as baby horses, but more magical!",
+        coins: 25
+    },
+    {
+        question: "What magical object can transport you instantly anywhere?",
+        options: ["Magic carpet", "Seven-league boots", "Teleportation ring", "All of these"],
+        correct: 3,
+        hint: "There are many magical ways to travel!",
+        coins: 30
     }
 ];
 
