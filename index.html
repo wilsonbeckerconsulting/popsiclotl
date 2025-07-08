@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popsiclotl - Your Virtual Axolotl Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Menu -->
+    <div id="main-menu" class="main-menu">
+        <h1 class="app-title">🌈 Magical Games 🌈</h1>
+        <div class="game-selection">
+            <button id="play-popsiclotl" class="game-select-btn popsiclotl-btn">
+                <div class="game-icon">🦎</div>
+                <div class="game-name">Popsiclotl</div>
+                <div class="game-desc">Take care of your axolotl!</div>
+            </button>
+            <button id="play-fantasy" class="game-select-btn fantasy-btn">
+                <div class="game-icon">🏰</div>
+                <div class="game-name">Fantasy Land</div>
+                <div class="game-desc">Build your magical kingdom!</div>
+            </button>
+        </div>
+    </div>
+
+    <!-- Popsiclotl Game -->
+    <div id="popsiclotl-game" class="game-container hidden">
+        <header class="game-header">
+            <button id="back-to-menu-1" class="back-btn">← Menu</button>
+            <h1 class="game-title">🌈 Popsiclotl 🌈</h1>
+            <div class="pet-name-container">
+                <span>Your pet: </span>
+                <span id="pet-name">Click to name me!</span>
+                <button id="name-btn" class="name-button">✏️</button>
+            </div>
+        </header>
+
+        <main class="game-main">
+            <div class="pet-container">
+                <div class="pet-display">
+                    <div id="axolotl" class="axolotl">
+                        <div class="axolotl-body">
+                            <div class="axolotl-head">
+                                <div class="axolotl-eyes">
+                                    <div class="eye left-eye"></div>
+                                    <div class="eye right-eye"></div>
+                                </div>
+                                <div class="axolotl-gills">
+                                    <div class="gill left-gill"></div>
+                                    <div class="gill right-gill"></div>
+                                </div>
+                                <div class="axolotl-mouth"></div>
+                            </div>
+                            <div class="axolotl-tail"></div>
+                        </div>
+                    </div>
+                    <div id="status-message" class="status-message">Hi! Take care of me! 💕</div>
+                </div>
+
+                <div class="needs-panel">
+                    <div class="need-bar">
+                        <span class="need-label">🍽️ Hunger</span>
+                        <div class="bar-container">
+                            <div id="hunger-bar" class="bar hunger-bar"></div>
+                        </div>
+                        <span id="hunger-value" class="need-value">100%</span>
+                    </div>
+                    
+                    <div class="need-bar">
+                        <span class="need-label">💧 Thirst</span>
+                        <div class="bar-container">
+                            <div id="thirst-bar" class="bar thirst-bar"></div>
+                        </div>
+                        <span id="thirst-value" class="need-value">100%</span>
+                    </div>
+                    
+                    <div class="need-bar">
+                        <span class="need-label">⚡ Energy</span>
+                        <div class="bar-container">
+                            <div id="energy-bar" class="bar energy-bar"></div>
+                        </div>
+                        <span id="energy-value" class="need-value">100%</span>
+                    </div>
+                    
+                    <div class="need-bar">
+                        <span class="need-label">😊 Happiness</span>
+                        <div class="bar-container">
+                            <div id="happiness-bar" class="bar happiness-bar"></div>
+                        </div>
+                        <span id="happiness-value" class="need-value">100%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="actions-panel">
+                <div class="action-group">
+                    <h3>🍽️ Feed</h3>
+                    <div class="action-buttons">
+                        <button id="feed-fish" class="action-btn feed-btn">
+                            <span class="btn-icon">🐟</span>
+                            <span class="btn-text">Fish</span>
+                        </button>
+                        <button id="feed-worms" class="action-btn feed-btn">
+                            <span class="btn-icon">🪱</span>
+                            <span class="btn-text">Worms</span>
+                        </button>
+                        <button id="feed-pellets" class="action-btn feed-btn">
+                            <span class="btn-icon">🟤</span>
+                            <span class="btn-text">Pellets</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="action-group">
+                    <h3>🧊 Treats</h3>
+                    <div class="action-buttons">
+                        <button id="treat-popsicle" class="action-btn treat-btn">
+                            <span class="btn-icon">🍭</span>
+                            <span class="btn-text">Popsicle</span>
+                        </button>
+                        <button id="treat-ice" class="action-btn treat-btn">
+                            <span class="btn-icon">🧊</span>
+                            <span class="btn-text">Ice Cube</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="action-group">
+                    <h3>💧 Care</h3>
+                    <div class="action-buttons">
+                        <button id="give-water" class="action-btn care-btn">
+                            <span class="btn-icon">💧</span>
+                            <span class="btn-text">Water</span>
+                        </button>
+                        <button id="pet-axolotl" class="action-btn care-btn">
+                            <span class="btn-icon">👋</span>
+                            <span class="btn-text">Pet</span>
+                        </button>
+                        <button id="play-exercise" class="action-btn care-btn">
+                            <span class="btn-icon">🏃</span>
+                            <span class="btn-text">Exercise</span>
+                        </button>
+                        <button id="sleep-time" class="action-btn care-btn">
+                            <span class="btn-icon">😴</span>
+                            <span class="btn-text">Sleep</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="game-footer">
+            <div class="game-stats">
+                <span>Time with Popsiclotl: <span id="time-counter">0 minutes</span></span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Fantasy Land Game -->
+    <div id="fantasy-game" class="game-container hidden">
+        <header class="game-header">
+            <button id="back-to-menu-2" class="back-btn">← Menu</button>
+            <h1 class="game-title">🏰 Fantasy Land 🏰</h1>
+            <div class="coins-container">
+                <span class="coins-label">💰 Coins: </span>
+                <span id="coin-count">0</span>
+            </div>
+        </header>
+
+        <main class="fantasy-main">
+            <!-- Question Panel -->
+            <div id="question-panel" class="question-panel">
+                <div class="question-header">
+                    <h3>🧙‍♀️ Answer to Earn Coins! 🧙‍♀️</h3>
+                </div>
+                <div id="question-content" class="question-content">
+                    <div id="question-text" class="question-text">Click "New Question" to start!</div>
+                    <div id="question-options" class="question-options"></div>
+                    <div class="question-controls">
+                        <button id="new-question-btn" class="action-btn question-btn">New Question</button>
+                        <button id="hint-btn" class="action-btn hint-btn">💡 Hint</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kingdom Panel -->
+            <div id="kingdom-panel" class="kingdom-panel">
+                <div class="kingdom-header">
+                    <h3>🏰 Your Kingdom 🏰</h3>
+                </div>
+                <div id="kingdom-grid" class="kingdom-grid">
+                    <!-- Kingdom buildings will be dynamically added here -->
+                </div>
+                <div class="shop-panel">
+                    <h4>🛒 Shop</h4>
+                    <div id="shop-items" class="shop-items">
+                        <!-- Shop items will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Name input modal -->
+    <div id="name-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3>What's your axolotl's name?</h3>
+            <input type="text" id="name-input" placeholder="Enter a cute name..." maxlength="15">
+            <div class="modal-buttons">
+                <button id="save-name" class="modal-btn save-btn">Save</button>
+                <button id="cancel-name" class="modal-btn cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
