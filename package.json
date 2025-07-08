@@ -1,0 +1,31 @@
+{
+  "name": "popsiclotl",
+  "version": "1.0.0",
+  "description": "A magical dual-game collection featuring Popsiclotl (Tamagotchi-style axolotl care) and Fantasy Land (kingdom building with trivia)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": [
+    "game",
+    "tamagotchi",
+    "axolotl",
+    "fantasy",
+    "kids",
+    "educational",
+    "trivia"
+  ],
+  "author": "Wilson Becker Consulting",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilsonbeckerconsulting/popsiclotl.git"
+  }
+}
